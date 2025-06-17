@@ -57,9 +57,6 @@ class NotesHandler {
     const response = h.response({
       status: 'success',
       message: 'Catatan berhasil diperbarui',
-      data: {
-        note: updatedNote,
-      },
     });
     response.code(200);
     return response;
