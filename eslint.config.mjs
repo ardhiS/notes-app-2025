@@ -15,9 +15,9 @@ export default defineConfig([
     files: ['**/*.{js,mjs,cjs}'],
     languageOptions: { globals: globals.browser },
   },
-  // {
-  //   env: {
-  //     node: true,
-  //   },
-  // },
+  {
+    env: {
+      node: true,
+    },
+  },
 ]);
